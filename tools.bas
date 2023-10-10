@@ -1,5 +1,3 @@
-Option Explicit
-
 #If VBA7 Then
    Private Declare PtrSafe Function GetUserName& Lib "advapi32.dll" Alias "GetUserNameA" (ByVal lpBuffer As String, nSize As Long)
 #Else
